@@ -1,0 +1,581 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gallery — Photos & Videos of Our Pest Control Work</title>
+    <meta
+      name="description"
+      content="Browse photos and videos from Click India Pest Control's residential and commercial pest control jobs."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Inter:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/responsive.css" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="512x512"
+      href="./media/images/website-images/favicon.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      href="./media/images/website-images/favicon.png"
+    />
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+
+    <!-- ===== Header ===== -->
+    <header class="header">
+      <div class="container header__inner">
+        <a
+          class="brand"
+          href="./index.html"
+          aria-label="ClickIndia Pest Control Home"
+        >
+          <img
+            src="./media/images/website-images/logo.png"
+            alt="ClickIndia Pest Control Logo"
+            class="brand__logo"
+          />
+        </a>
+        <button
+          class="nav-toggle"
+          aria-label="Open menu"
+          aria-expanded="false"
+          aria-controls="nav"
+        >
+          <span class="nav-toggle__bar"></span
+          ><span class="nav-toggle__bar"></span
+          ><span class="nav-toggle__bar"></span>
+        </button>
+        <nav class="nav" id="nav" aria-label="Main">
+          <ul class="nav__list">
+            <li><a class="nav__link" href="./index.html">Home</a></li>
+            <li><a class="nav__link" href="./about.html">About</a></li>
+            <li><a class="nav__link" href="./services.html">Services</a></li>
+            <li><a class="nav__link" href="./gallery.html">Gallery</a></li>
+            <li><a class="nav__link" href="./contact.html">Contact</a></li>
+          </ul>
+          <a
+            href="https://wa.me/918123333089?text=Hi%2C%20I%27d%20like%20to%20request%20a%20pest%20control%20quote."
+            class="btn btn--primary nav__cta"
+            target="_blank"
+            rel="noopener noreferrer"
+            >Get a Quote</a
+          >
+        </nav>
+      </div>
+    </header>
+
+    <main id="main">
+      <!-- ===== Page hero (brand-designed) ===== -->
+      <section class="page-hero">
+        <div class="page-hero__decor" aria-hidden="true">
+          <span class="page-hero__grid-texture"></span>
+          <span class="page-hero__glow page-hero__glow--1"></span>
+          <span class="page-hero__glow page-hero__glow--2"></span>
+          <span
+            class="page-hero__float page-hero__float--1"
+            data-icon="spider"
+          ></span>
+          <span
+            class="page-hero__float page-hero__float--2"
+            data-icon="ant"
+          ></span>
+          <span
+            class="page-hero__float page-hero__float--3"
+            data-icon="fly"
+          ></span>
+          <span
+            class="page-hero__float page-hero__float--4"
+            data-icon="woodBorer"
+          ></span>
+        </div>
+        <div class="container page-hero__inner">
+          <nav class="breadcrumb" aria-label="Breadcrumb">
+            <a href="./index.html">Home</a>
+            <span data-icon="chevronRight"></span>
+            <span>Gallery</span>
+          </nav>
+          <div class="page-hero__badge">
+            <span data-icon="videoCamera"></span>
+          </div>
+          <h1 class="page-hero__title">Gallery</h1>
+          <p class="page-hero__subtitle">
+            A look at our recent jobs — in photos and video.
+          </p>
+        </div>
+      </section>
+
+      <!-- ===== Gallery grid ===== -->
+      <section class="section">
+        <div class="container">
+          <div class="section__head reveal reveal--up">
+            <h2 class="section__title">Our Work</h2>
+            <p class="section__subtitle">Photos and videos from recent jobs</p>
+          </div>
+
+          <div
+            class="gallery-filters"
+            role="tablist"
+            aria-label="Filter gallery"
+          >
+            <button
+              class="gallery-filter is-active"
+              data-filter="all"
+              role="tab"
+              aria-selected="true"
+            >
+              All
+            </button>
+            <button
+              class="gallery-filter"
+              data-filter="image"
+              role="tab"
+              aria-selected="false"
+            >
+              Photos
+            </button>
+            <button
+              class="gallery-filter"
+              data-filter="video"
+              role="tab"
+              aria-selected="false"
+            >
+              Videos
+            </button>
+          </div>
+
+          <div class="gallery-grid" data-stagger id="galleryGrid">
+            <button
+              class="gallery-item reveal reveal--left"
+              data-type="image"
+              data-src="./media/images/gallery-images/job-01.jpeg"
+            >
+              <img
+                src="./media/images/gallery-images/job-01.jpeg"
+                alt="Close-up of anti-termite wood and soil treatment"
+                loading="lazy"
+              />
+            </button>
+
+            <button
+              class="gallery-item reveal reveal--right"
+              data-type="image"
+              data-src="./media/images/gallery-images/job-02.jpeg"
+            >
+              <img
+                src="./media/images/gallery-images/job-02.jpeg"
+                alt="Perimeter pest control treatment along a garden pathway at night"
+                loading="lazy"
+              />
+            </button>
+
+            <button
+              class="gallery-item reveal reveal--left"
+              data-type="image"
+              data-src="./media/images/gallery-images/job-03.jpeg"
+            >
+              <img
+                src="./media/images/gallery-images/job-03.jpeg"
+                alt="Night-time lawn perimeter pest treatment"
+                loading="lazy"
+              />
+            </button>
+
+            <button
+              class="gallery-item reveal reveal--right"
+              data-type="image"
+              data-src="./media/images/gallery-images/job-04.jpeg"
+            >
+              <img
+                src="./media/images/gallery-images/job-04.jpeg"
+                alt="Technician treating an office workspace for pests"
+                loading="lazy"
+              />
+            </button>
+
+            <button
+              class="gallery-item reveal reveal--left"
+              data-type="image"
+              data-src="./media/images/gallery-images/job-05.jpeg"
+            >
+              <img
+                src="./media/images/gallery-images/job-05.jpeg"
+                alt="Technician spraying pest treatment near office workstations"
+                loading="lazy"
+              />
+            </button>
+
+            <button
+              class="gallery-item reveal reveal--right"
+              data-type="image"
+              data-src="./media/images/gallery-images/job-06.jpeg"
+            >
+              <img
+                src="./media/images/gallery-images/job-06.jpeg"
+                alt="Technician performing floor treatment in a commercial space"
+                loading="lazy"
+              />
+            </button>
+
+            <button
+              class="gallery-item reveal reveal--left"
+              data-type="image"
+              data-src="./media/images/gallery-images/job-07.jpeg"
+            >
+              <img
+                src="./media/images/gallery-images/job-07.jpeg"
+                alt="Technician treating a room with pest control equipment"
+                loading="lazy"
+              />
+            </button>
+
+            <button
+              class="gallery-item reveal reveal--right"
+              data-type="image"
+              data-src="./media/images/gallery-images/job-08.jpeg"
+            >
+              <img
+                src="./media/images/gallery-images/job-08.jpeg"
+                alt="Anti-termite soil trench treatment around a building foundation"
+                loading="lazy"
+              />
+            </button>
+
+            <button
+              class="gallery-item reveal reveal--left"
+              data-type="image"
+              data-src="./media/images/gallery-images/job-09.jpeg"
+            >
+              <img
+                src="./media/images/gallery-images/job-09.jpeg"
+                alt="Anti-termite soil trench treatment along a foundation wall"
+                loading="lazy"
+              />
+            </button>
+
+            <button
+              class="gallery-item reveal reveal--right"
+              data-type="image"
+              data-src="./media/images/gallery-images/job-10.jpeg"
+            >
+              <img
+                src="./media/images/gallery-images/job-10.jpeg"
+                alt="Kitchen pest control treatment"
+                loading="lazy"
+              />
+            </button>
+
+            <button
+              class="gallery-item reveal reveal--left"
+              data-type="image"
+              data-src="./media/images/gallery-images/job-11.jpeg"
+            >
+              <img
+                src="./media/images/gallery-images/job-11.jpeg"
+                alt="Technician using a sprayer for pest treatment"
+                loading="lazy"
+              />
+            </button>
+
+            <button
+              class="gallery-item reveal reveal--right"
+              data-type="image"
+              data-src="./media/images/gallery-images/job-12.jpeg"
+            >
+              <img
+                src="./media/images/gallery-images/job-12.jpeg"
+                alt="Technician spraying pest treatment along a wall corner"
+                loading="lazy"
+              />
+            </button>
+
+            <button
+              class="gallery-item reveal reveal--left"
+              data-type="image"
+              data-src="./media/images/gallery-images/job-13.jpeg"
+            >
+              <img
+                src="./media/images/gallery-images/job-13.jpeg"
+                alt="Technician spraying pest treatment along a floor skirting"
+                loading="lazy"
+              />
+            </button>
+
+            <button
+              class="gallery-item reveal reveal--left"
+              data-type="video"
+              data-src="./media/videos/gallery-videos/1vid.mp4"
+            >
+              <video
+                src="./media/videos/gallery-videos/1vid.mp4"
+                muted
+                playsinline
+                preload="metadata"
+              ></video>
+              <span class="gallery-item__play">
+                <span data-icon="play"></span>
+              </span>
+            </button>
+
+            <button
+              class="gallery-item reveal reveal--right"
+              data-type="video"
+              data-src="./media/videos/gallery-videos/2vid.mp4"
+            >
+              <video
+                src="./media/videos/gallery-videos/2vid.mp4"
+                muted
+                playsinline
+                preload="metadata"
+              ></video>
+              <span class="gallery-item__play">
+                <span data-icon="play"></span>
+              </span>
+            </button>
+
+            <button
+              class="gallery-item reveal reveal--left"
+              data-type="video"
+              data-src="./media/videos/gallery-videos/3vid.mp4"
+            >
+              <video
+                src="./media/videos/gallery-videos/3vid.mp4"
+                muted
+                playsinline
+                preload="metadata"
+              ></video>
+              <span class="gallery-item__play">
+                <span data-icon="play"></span>
+              </span>
+            </button>
+
+            <button
+              class="gallery-item reveal reveal--right"
+              data-type="video"
+              data-src="./media/videos/gallery-videos/4vid.mp4"
+            >
+              <video
+                src="./media/videos/gallery-videos/4vid.mp4"
+                muted
+                playsinline
+                preload="metadata"
+              ></video>
+              <span class="gallery-item__play">
+                <span data-icon="play"></span>
+              </span>
+            </button>
+
+            <button
+              class="gallery-item reveal reveal--left"
+              data-type="video"
+              data-src="./media/videos/gallery-videos/5vid.mp4"
+            >
+              <video
+                src="./media/videos/gallery-videos/5vid.mp4"
+                muted
+                playsinline
+                preload="metadata"
+              ></video>
+              <span class="gallery-item__play">
+                <span data-icon="play"></span>
+              </span>
+            </button>
+
+            <button
+              class="gallery-item reveal reveal--right"
+              data-type="video"
+              data-src="./media/videos/gallery-videos/6vid.mp4"
+            >
+              <video
+                src="./media/videos/gallery-videos/6vid.mp4"
+                muted
+                playsinline
+                preload="metadata"
+              ></video>
+              <span class="gallery-item__play">
+                <span data-icon="play"></span>
+              </span>
+            </button>
+          </div>
+
+          <div class="gallery-empty" id="galleryEmpty">
+            <span data-icon="videoCamera"></span>
+            <p>No items found</p>
+            <span>Check back soon for more photos and videos.</span>
+          </div>
+
+          <div class="gallery-loadmore">
+            <button class="btn btn--outline" id="galleryLoadMore">
+              Load More
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <!-- ===== CTA ===== -->
+      <section class="section cta">
+        <div class="container cta__inner reveal reveal--zoom">
+          <h2 class="cta__title">Like What You See?</h2>
+          <p class="cta__text">
+            Let our team bring the same quality of work to your property.
+          </p>
+          <div class="cta__actions">
+            <a
+              href="https://wa.me/918123333089?text=Hi%2C%20I%27d%20like%20to%20request%20a%20pest%20control%20quote."
+              class="btn btn--primary btn--lg"
+              target="_blank"
+              rel="noopener noreferrer"
+              >Get a Free Quote</a
+            >
+            <a href="tel:+18005550199" class="btn btn--outline btn--lg"
+              >Call (800) 555-0199</a
+            >
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- ===== Lightbox ===== -->
+    <div class="lightbox" id="lightbox">
+      <button class="lightbox__close" aria-label="Close">&times;</button>
+      <div class="lightbox__content"></div>
+    </div>
+
+    <!-- ===== Footer ===== -->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer__grid">
+          <div class="footer__brand">
+            <!-- <a class="brand" href="./index.html" aria-label="Click India Pest Control home">
+              <span class="brand__mark" data-icon="shield"></span>
+              <span
+                ><span class="brand__name">Shield<span>Guard</span></span
+                ><span class="brand__tag">Pest Control</span></span
+              >
+            </a> -->
+            <a
+              class="brand"
+              href="./index.html"
+              aria-label="ClickIndia Pest Control Home"
+            >
+              <img
+                src="./media/images/website-images/logo.png"
+                alt="ClickIndia Pest Control Logo"
+                class="brand__logo"
+              />
+            </a>
+            <p class="footer__about">
+              Professional pest control services protecting homes and businesses
+              since 2009. Licensed, insured, and guaranteed.
+            </p>
+            <div class="footer__social">
+              <a
+                href="https://facebook.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Facebook"
+                ><span data-icon="facebook"></span
+              ></a>
+              <a
+                href="https://twitter.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Twitter"
+                ><span data-icon="twitter"></span
+              ></a>
+              <a
+                href="https://instagram.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Instagram"
+                ><span data-icon="instagram"></span
+              ></a>
+              <a
+                href="https://linkedin.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="LinkedIn"
+                ><span data-icon="linkedin"></span
+              ></a>
+            </div>
+          </div>
+          <div>
+            <h3 class="footer__title">Company</h3>
+            <ul class="footer__links">
+              <li><a href="./index.html">Home</a></li>
+              <li><a href="./about.html">About Us</a></li>
+              <li><a href="./services.html">Services</a></li>
+              <li><a href="./gallery.html">Gallery</a></li>
+              <li><a href="./contact.html">Contact</a></li>
+            </ul>
+          </div>
+          <div>
+            <h3 class="footer__title">Services</h3>
+            <ul class="footer__links">
+              <li><a href="./services.html">Termites</a></li>
+              <li><a href="./services.html">Cockroaches</a></li>
+              <li><a href="./services.html">Rodents</a></li>
+              <li><a href="./services.html">Mosquitoes</a></li>
+            </ul>
+          </div>
+          <div>
+            <h3 class="footer__title">Get in Touch</h3>
+            <ul class="footer__contact">
+              <li>
+                <span data-icon="mapPin"></span> 123 Main Street, Springfield,
+                ST 12345
+              </li>
+              <li>
+                <span data-icon="phone"></span>
+                <a href="tel:+18005550199">(800) 555-0199</a>
+              </li>
+              <li>
+                <span data-icon="mail"></span>
+                <a href="mailto:help@Click India Pest Control.example"
+                  >help@Click India Pest Control.example</a
+                >
+              </li>
+              <li><span data-icon="clock"></span> Mon–Sat: 7am–7pm</li>
+            </ul>
+          </div>
+        </div>
+        <div class="footer__bottom">
+          <p>&copy; 2026 ClickIndia Pest Control. All rights reserved.</p>
+          <p>
+            <a href="#">Privacy Policy</a> &middot;
+            <a href="#">Terms of Service</a>
+          </p>
+        </div>
+      </div>
+    </footer>
+
+    <a
+      class="whatsapp-float"
+      href="https://wa.me/918123333089?text=Hi%2C%20I%27d%20like%20to%20request%20a%20pest%20control%20quote."
+      target="_blank"
+      rel="noopener noreferrer"
+      aria-label="Chat with us on WhatsApp"
+      ><svg viewBox="0 0 24 24" fill="currentColor">
+        <path
+          d="M17.6 6.32A8.86 8.86 0 0 0 12.05 4a8.94 8.94 0 0 0-7.75 13.4L3 21l3.72-1.25a8.9 8.9 0 0 0 4.33 1.13h.01A8.94 8.94 0 0 0 20 12.06a8.87 8.87 0 0 0-2.4-5.74zM12.06 19.2a7.4 7.4 0 0 1-3.8-1.04l-.27-.16-2.83.94.9-2.76-.18-.28a7.42 7.42 0 1 1 6.18 3.3zm4.07-5.56c-.22-.11-1.32-.65-1.53-.72s-.35-.11-.5.11-.58.72-.71.87-.26.17-.48.06a6.06 6.06 0 0 1-1.78-1.1 6.68 6.68 0 0 1-1.23-1.53c-.13-.22 0-.34.1-.45s.22-.26.33-.39a1.5 1.5 0 0 0 .22-.37.4.4 0 0 0 0-.39c-.06-.11-.5-1.2-.68-1.65s-.37-.37-.5-.38h-.43a.83.83 0 0 0-.6.28 2.5 2.5 0 0 0-.78 1.86 4.36 4.36 0 0 0 .91 2.3 9.95 9.95 0 0 0 3.8 3.35c.53.23.94.36 1.26.46a3 3 0 0 0 1.39.09 2.27 2.27 0 0 0 1.49-1.05 1.85 1.85 0 0 0 .13-1.05c-.06-.09-.2-.15-.42-.26z"
+        /></svg
+    ></a>
+    <button class="back-to-top" aria-label="Back to top">
+      <span data-icon="arrowUp"></span>
+    </button>
+
+    <script type="module" src="./js/main.js"></script>
+    <script type="module">
+      import { initGallery } from "/js/gallery.js";
+      document.addEventListener("DOMContentLoaded", initGallery);
+    </script>
+  </body>
+</html>
