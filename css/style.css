@@ -1524,8 +1524,8 @@ p {
   position: fixed;
   bottom: var(--space-3);
   right: var(--space-3);
-  width: 56px;
-  height: 56px;
+  width: 66px;
+  height: 66px;
   display: grid;
   place-items: center;
   background: #25d366;
