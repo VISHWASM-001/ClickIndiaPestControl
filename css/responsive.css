@@ -132,7 +132,7 @@
     transition:
       opacity var(--transition),
       visibility var(--transition);
-    z-index: 105;
+    z-index: 150;
   }
   .nav-overlay.is-visible {
     opacity: 1;

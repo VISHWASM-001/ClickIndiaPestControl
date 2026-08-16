@@ -254,7 +254,7 @@ p {
   left: 0;
   right: 0;
   height: calc(var(--header-h) + 14px);
-  z-index: 100;
+  z-index: 200;
   padding-top: 0;
   transition: padding-top var(--transition);
 }
@@ -1657,6 +1657,12 @@ p {
   font-size: 0.88rem;
   margin-bottom: var(--space-2);
 }
+.team-card__meta {
+  color: var(--text-light);
+  font-size: 0.78rem;
+  line-height: 1.5;
+  margin-bottom: var(--space-2);
+}
 .team-card__socials {
   display: flex;
   justify-content: center;
@@ -2149,7 +2155,7 @@ textarea.form-control {
   display: none;
   align-items: center;
   justify-content: center;
-  z-index: 200;
+  z-index: 300;
   padding: var(--space-3);
 }
 .lightbox.is-open {
