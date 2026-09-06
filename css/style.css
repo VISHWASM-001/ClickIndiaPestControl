@@ -1642,6 +1642,7 @@ p {
 .team-card__img {
   aspect-ratio: 1;
   object-fit: cover;
+  object-position: center top;
   width: 100%;
 }
 .team-card__body {
